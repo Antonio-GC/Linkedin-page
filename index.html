@@ -30,12 +30,12 @@
               <form class="form" action="form">
                 <i class="fa-solid fa-magnifying-glass icon__search"></i>
                 <input
-                      class="form__search"
-                      type="text"
-                      name="text"
-                      id="text"
-                      placeholder=" Search Twitter"
-                    />
+                  class="form__search"
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder=" Search Twitter"
+                />
               </form>
               <div class="icon__nav">
                 <i class="fa-solid fa-house"></i>
@@ -59,40 +59,101 @@
       </nav>
     </header>
     <main>
-        <section class="wrapper__perfil">
-            <div class="perfil__nav-bar">
+      <section class="wrapper__perfil">
+        <div class="perfil__nav-bar"></div>
+        <a href="/perfil.html" class="perfil__link">
+          <div class="perfil__box">
+            <img src="/img/perfil-user.jpg" alt="" class="perfil__image" />
+            <h3 class="perfil__title">Antonio de Jesús González Castro</h3>
+            <p class="perfil__text">
+              Abogado | Corporativo | Fiscal | Asesor | programming apprentice
+            </p>
+          </div>
+        </a>
 
-            </div>
-            <a href="/perfil.html" class="perfil__link">
-              <div class="perfil__box">
-                <img src="/img/perfil-user.jpg" alt="" class="perfil__image">
-                <h3 class="perfil__title">Antonio de Jesús González Castro</h3>
-                <p class="perfil__text">Abogado | Corporativo | Fiscal | Asesor | programming apprentice</p>
-              </div>   
-            
-            </a>
-           
-            <div class="wrapper__section">
-                
-                <p class="section__text">Mostrar más ▼</p>
-            </div>
-        </section>
-        <section class="wrapper__post">
-          <div class="container">
-             <div class="post__section">
-            <img src="/img/perfil-user.jpg" alt="picture-user" class="post__user">
+        <div class="wrapper__section">
+          <p class="section__text">Mostrar más ▼</p>
+        </div>
+      </section>
+      <section class="wrapper__post">
+        <div class="container">
+          <div class="post__section">
+            <img
+              src="/img/perfil-user.jpg"
+              alt="picture-user"
+              class="post__user"
+            />
             <button class="btn__section">Crear publicacion</button>
           </div>
-<div class="post__action">
-  <i class="fa-solid fa-image">  </i><span class="icon-text">Foto</span>
-  <i class="fa-brands fa-youtube"> </i><span class="icon-text">Video</span>
-  <i class="fa-solid fa-calendar-days"> </i><span class="icon-text">Event</span>
-</div>
-<div>
-  <i class="fa-brands fa-elementor">Escribe un articulo</i>
-</div>
+          <div class="post__action">
+            <div>
+              <i class="fa-solid fa-image"> </i
+              ><span class="icon-text">Foto</span>
+            </div>
+            <div>
+              <i class="fa-brands fa-youtube"> </i
+              ><span class="icon-text">Video</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-calendar-days"> </i
+              ><span class="icon-text">Event</span>
+            </div>
           </div>
-         
+          <div class="box__icon">
+            <i class="fa-brands fa-elementor"></i
+            ><span class="icon-text">Escribe un articulo</span>
+          </div>
+        </div>
+
+       
+      </section>
+       <div class="wrapper__order">
+          <div class="order__line"></div>
+          <p class="order__text">Ordenar por: <span class="order__text--black">Principal ▼</span></p>
+        </div>
+
+        <section class="wrapper__post">
+          <div class="container">
+            <div class="post__section">
+              <img
+                src="/img/perfil-brais-mourse.jpg"
+                alt="picture-user"
+                class="post__user"
+              />
+              <div class="wrapper__emoji">
+                 <div class="emoji__perfil-date">
+                  <div>
+                   <span class="perfil-date__name">Brais Moure</span>
+                <span class="perfil-date__name--gray">Siguiendo</span>  
+                  </div>
+                
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div>
+                <p class="perfil-date__text">Freelance full.stack Dev | iOS & Android Engi...</p>
+                <span class="perfil-date__text">1 hora</span><i class="fa-solid fa-earth-americas"></i>
+              </div>
+              </div>
+             
+              
+            </div>
+            
+          </div>
+          <img src="/img/post-brais-mourse.jpg" alt="">
+          <div class="container">
+            <div>
+              <div>
+                <i class="fa-solid fa-face-laugh-beam"></i>
+              <i class="fa-solid fa-thumbs-up"></i>
+              <i class="fa-solid fa-hand-holding-heart"></i>
+              <span>107</span> 
+              </div>
+             <div>
+              <span>16 comentarios</span>
+              <span>3 veces compartido</span>
+             </div>
+            </div>
+          </div>
         </section>
     </main>
   </body>

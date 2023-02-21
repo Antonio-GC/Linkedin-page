@@ -135,6 +135,13 @@ padding: 2rem 0;
   max-height: 5rem;
 }
 
+.post__action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
 .btn__section {
   background-color: $white;
   border: $gray-light solid .1rem;
@@ -151,8 +158,88 @@ padding: 2rem 0;
   color: $blue-active;
 }
 
+.fa-youtube {
+  font-size: 1.8rem;
+  color: $green;
+}
+
+.fa-calendar-days {
+  font-size: 1.8rem;
+  color: $yellow-dark;
+}
+
+.fa-elementor {
+  font-size: 1.8rem;
+  color: $red-dark;
+}
 .icon-text {
   color: $gray;
- margin-left: .5rem;
+ margin-left: 1rem;
  font-size: 1.4rem;
+}
+
+.box__icon {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper__order {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.order__line {
+  border: solid $gray-light .1rem;
+  width: 60%;
+}
+
+.order__text {
+  color: $gray;
+  font-size: 1.2rem;
+padding: 0 1rem;
+
+&--black {
+  color: $black;
+}
+}
+
+.wrapper__emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emoji__perfil-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil-date__name {
+  font-size: 1.5rem;
+  color: $black;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.perfil-date__name--gray {
+  font-size: 1.5rem;
+  color: $gray;
+  font-weight: bold;
+}
+
+.fa-ellipsis {
+  font-size: 2rem;
+  color: $gray;
+}
+
+.perfil-date__text {
+  font-size: 1.4rem;
+  color: $gray;
+}
+
+.fa-earth-americas {
+  color: $gray;
+  margin-left: .5rem;
 }

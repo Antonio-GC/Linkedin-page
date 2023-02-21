@@ -109,6 +109,12 @@ input {
   border-radius: 50%;
   max-height: 5rem; }
 
+.post__action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2.5rem; }
+
 .btn__section {
   background-color: #ffff;
   border: #CCCCCC solid 0.1rem;
@@ -123,7 +129,72 @@ input {
   font-size: 1.8rem;
   color: #0A66C2; }
 
+.fa-youtube {
+  font-size: 1.8rem;
+  color: #057642; }
+
+.fa-calendar-days {
+  font-size: 1.8rem;
+  color: #e7c33b; }
+
+.fa-elementor {
+  font-size: 1.8rem;
+  color: #a90e2c; }
+
 .icon-text {
   color: #5E5E5E;
-  margin-left: .5rem;
+  margin-left: 1rem;
   font-size: 1.4rem; }
+
+.box__icon {
+  display: flex;
+  justify-content: center; }
+
+.wrapper__order {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0; }
+
+.order__line {
+  border: solid #CCCCCC 0.1rem;
+  width: 60%; }
+
+.order__text {
+  color: #5E5E5E;
+  font-size: 1.2rem;
+  padding: 0 1rem; }
+  .order__text--black {
+    color: #000000; }
+
+.wrapper__emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%; }
+
+.emoji__perfil-date {
+  display: flex;
+  justify-content: space-between; }
+
+.perfil-date__name {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: bold;
+  margin-right: 1rem; }
+
+.perfil-date__name--gray {
+  font-size: 1.5rem;
+  color: #5E5E5E;
+  font-weight: bold; }
+
+.fa-ellipsis {
+  font-size: 2rem;
+  color: #5E5E5E; }
+
+.perfil-date__text {
+  font-size: 1.4rem;
+  color: #5E5E5E; }
+
+.fa-earth-americas {
+  color: #5E5E5E;
+  margin-left: .5rem; }

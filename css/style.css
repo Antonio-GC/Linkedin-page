@@ -3,6 +3,10 @@
   color: #000000;
   font-weight: lighter; }
 
+.section__text {
+  font-size: 1.5rem;
+  color: #5E5E5E; }
+
 *,
 *::after,
 *::before {
@@ -84,4 +88,42 @@ input {
   margin: .5rem; }
 
 .perfil__text {
+  text-align: center;
+  padding-bottom: 1rem; }
+
+.section__text {
+  margin: 2rem 0;
   text-align: center; }
+
+.wrapper__post {
+  background-color: #ffff;
+  padding: 2rem 0; }
+
+.post__section {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  margin-bottom: 2rem; }
+
+.post__user {
+  border-radius: 50%;
+  max-height: 5rem; }
+
+.btn__section {
+  background-color: #ffff;
+  border: #CCCCCC solid 0.1rem;
+  border-radius: 3rem;
+  width: 100%;
+  padding: 1.8rem 1.5rem;
+  color: #5E5E5E;
+  font-size: 1.5rem;
+  text-align: left; }
+
+.fa-image {
+  font-size: 1.8rem;
+  color: #0A66C2; }
+
+.icon-text {
+  color: #5E5E5E;
+  margin-left: .5rem;
+  font-size: 1.4rem; }

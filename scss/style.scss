@@ -1,4 +1,5 @@
 @import"config";
+@import"tipografia";
 
 
 *,
@@ -68,6 +69,10 @@ a {
 
   }
 
+  .form__search{
+    display: none;
+  }
+
   .perfil__nav-bar {
     background-image: url(/img/linke-nav-bar.jpg);
     background-position: center;
@@ -77,19 +82,32 @@ a {
     margin: -1.2rem -1.2rem 0;
   }
 
-.perfil__box {
-    position: relative;
-    top: -5rem;
-    left: 15rem;
-     margin: 0 auto;
-     max-width: 100%;
-     z-index: 1;
+
+.perfil__box{
+  padding: 0;
+  background-color: $white;
 }
 
   .perfil__image {
     border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -5rem;
+    padding: .3rem;
+    background-color: $white;
   }
 
   .perfil__title {
 color:$black;
+font-size: 2rem;
+text-align: center;
+margin: .5rem;
+
+
   }
+  
+  .perfil__text {
+ @extend %text;
+    text-align: center;
+ 
+}

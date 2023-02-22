@@ -97,23 +97,42 @@ input {
 
 .wrapper__post {
   background-color: #ffff;
-  padding: 2rem 0; }
+  padding: 1rem 0;
+  margin: 1rem 0; }
 
 .post__section {
   display: flex;
   align-items: center;
   column-gap: 1.5rem;
   margin-bottom: 2rem; }
+  .post__section--border {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    border-bottom: #CCCCCC solid 0.1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem; }
 
 .post__user {
   border-radius: 50%;
   max-height: 5rem; }
+  .post__user--square {
+    max-height: 6rem; }
+  .post__user--post {
+    border-radius: 50%;
+    max-height: 3rem; }
 
 .post__action {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 2.5rem; }
+
+.icon__action {
+  padding: 2rem 1rem; }
+  .icon__action:hover {
+    background-color: #CCCCCC;
+    border-radius: .5rem; }
 
 .btn__section {
   background-color: #ffff;
@@ -124,6 +143,10 @@ input {
   color: #5E5E5E;
   font-size: 1.5rem;
   text-align: left; }
+  .btn__section:hover {
+    border: solid #5E5E5E 0.2rem;
+    color: #5E5E5E;
+    font-weight: bold; }
 
 .fa-image {
   font-size: 1.8rem;
@@ -181,19 +204,26 @@ input {
   color: #000000;
   font-weight: bold;
   margin-right: 1rem; }
-
-.perfil-date__name--gray {
-  font-size: 1.5rem;
-  color: #5E5E5E;
-  font-weight: bold; }
+  .perfil-date__name--gray {
+    font-size: 1.2rem;
+    color: #5E5E5E;
+    font-weight: bold; }
+  .perfil-date__name--gray-light {
+    color: #5E5E5E; }
+  .perfil-date__name--post {
+    font-weight: bold; }
 
 .fa-ellipsis {
   font-size: 2rem;
   color: #5E5E5E; }
 
 .perfil-date__text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #5E5E5E; }
+  .perfil-date__text--black {
+    font-size: 1.5rem;
+    align-items: end;
+    padding: 1rem 1.6rem; }
 
 .fa-earth-americas {
   color: #5E5E5E;
@@ -216,3 +246,48 @@ input {
 
 .comments__text {
   color: #5E5E5E; }
+
+.post__img {
+  width: 100%; }
+
+.wrapper__action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem; }
+
+.user__action {
+  border-radius: 50%;
+  max-height: 3rem; }
+
+.action__img {
+  display: flex;
+  align-items: center; }
+
+.fa-regular {
+  font-size: 1.8rem;
+  color: #5E5E5E;
+  padding: 2rem; }
+  .fa-regular:active {
+    color: #0A66C2; }
+
+.fa-retweet {
+  font-size: 1.8rem;
+  color: #5E5E5E;
+  padding: 2rem; }
+  .fa-retweet:active {
+    color: #0A66C2; }
+
+.wrapper__download {
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 1.4rem;
+  border-bottom: #CCCCCC solid 0.01rem; }
+
+.download__link {
+  color: #0A66C2; }
+  .download__link i {
+    margin-right: .5rem; }
+
+.fa-heart {
+  color: #d40800; }

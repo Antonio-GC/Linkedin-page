@@ -243,3 +243,26 @@ padding: 0 1rem;
   color: $gray;
   margin-left: .5rem;
 }
+
+.wrapper__comments{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  border-bottom: $gray-light solid .1rem;
+}
+
+.fa-face-laugh-beam {
+  color: $blue-opacity;
+}
+
+.fa-thumbs-up {
+  color: $blue-active;
+}
+
+.fa-hand-holding-heart {
+  color: $purpure;
+}
+
+.comments__text {
+  color: $gray;
+}

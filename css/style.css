@@ -198,3 +198,21 @@ input {
 .fa-earth-americas {
   color: #5E5E5E;
   margin-left: .5rem; }
+
+.wrapper__comments {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  border-bottom: #CCCCCC solid 0.1rem; }
+
+.fa-face-laugh-beam {
+  color: #33FFDD; }
+
+.fa-thumbs-up {
+  color: #0A66C2; }
+
+.fa-hand-holding-heart {
+  color: #A533FF; }
+
+.comments__text {
+  color: #5E5E5E; }

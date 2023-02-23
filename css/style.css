@@ -55,6 +55,22 @@ input {
   background-color: #ffff;
   margin-bottom: 2rem; }
 
+.icon__nav--display {
+  display: none; }
+
+.fa-solid {
+  color: #5E5E5E; }
+  .fa-solid:hover {
+    color: #000000; }
+
+.fa-calendar-days {
+  font-size: 1.8rem;
+  color: #e7c33b; }
+
+.fa-image {
+  font-size: 1.8rem;
+  color: #0A66C2; }
+
 .wrapper__perfil {
   position: relative; }
 
@@ -148,17 +164,9 @@ input {
     color: #5E5E5E;
     font-weight: bold; }
 
-.fa-image {
-  font-size: 1.8rem;
-  color: #0A66C2; }
-
 .fa-youtube {
   font-size: 1.8rem;
   color: #057642; }
-
-.fa-calendar-days {
-  font-size: 1.8rem;
-  color: #e7c33b; }
 
 .fa-elementor {
   font-size: 1.8rem;
@@ -291,3 +299,10 @@ input {
 
 .fa-heart {
   color: #d40800; }
+
+.perfil-date__box {
+  font-size: 1.5rem;
+  align-self: flex-end; }
+
+.perfil-date__link {
+  color: #0A66C2; }

@@ -26,7 +26,9 @@
           <div class="section">
             <div class="nav__header">
               <div>
-                <img src="/img/Logo-lin.png" alt="" />
+                <a href="#home">
+                  <img src="/img/Logo-lin.png" alt="" />
+                </a>
               </div>
               <form class="form" action="form">
                 <i class="fa-solid fa-magnifying-glass icon__search"></i>
@@ -39,19 +41,34 @@
                 />
               </form>
               <div class="icon__nav">
-                <i class="fa-solid fa-house"></i>
+                <a href="#home">
+                  <i class="fa-solid fa-house"></i>
+                </a>
               </div>
               <div class="icon__nav">
-                <i class="fa-solid fa-user"></i>
+                <a href="perfil.html">
+                  <i class="fa-solid fa-user"></i>
+                </a>
               </div>
               <div class="icon__nav">
-                <i class="fa-solid fa-business-time"></i>
+                <a href="">
+                <i class="fa-solid fa-business-time"></i>  
+                </a>
               </div>
               <div class="icon__nav">
-                <i class="fa-solid fa-comment"></i>
+                <a href="">
+                <i class="fa-solid fa-comment"></i>  
+                </a>
               </div>
               <div class="icon__nav">
                 <i class="fa-solid fa-bell"></i>
+              </div>
+              <div class="icon__nav--display">
+                <img src="/img/perfil-user.jpg" alt="" class="user__action" />
+                <span class="user__action--decoration">▼</span>
+              </div>
+              <div class="icon__nav--display">
+                <i class="fa-solid fa-qrcode"></i>
               </div>
             </div>
             <div></div>
@@ -61,17 +78,19 @@
     </header>
     <main>
       <section class="wrapper__perfil">
-        <div class="perfil__nav-bar"></div>
+        <div class="perfil__nav-bar" id="home"></div>
         <a href="/perfil.html" class="perfil__link">
           <div class="perfil__box">
             <img src="/img/perfil-user.jpg" alt="" class="perfil__image" />
-            <h3 class="perfil__title">Antonio de Jesús González Castro</h3>
+            <h3 class="perfil__title" id="home">
+              Antonio de Jesús González Castro
+            </h3>
             <p class="perfil__text">
               Abogado | Corporativo | Fiscal | Asesor | programming apprentice
             </p>
           </div>
         </a>
-<!-- separation between header and profile -->
+        <!-- separation between header and profile -->
         <div class="wrapper__section">
           <p class="section__text">Mostrar más ▼</p>
         </div>
@@ -188,8 +207,6 @@
               </a>
             </div>
           </div>
-
-          
         </div>
       </section>
 
@@ -210,22 +227,21 @@
                 <i class="fa-solid fa-ellipsis"></i>
               </div>
               <div>
-                <p class="perfil-date__text">
-                  14,522 seguidores
-                </p>
-                <span class="perfil-date__text">Promocionado</span
-                >
-               
+                <p class="perfil-date__text">14,522 seguidores</p>
+                <span class="perfil-date__text">Promocionado</span>
               </div>
             </div>
           </div>
         </div>
-        <p class="perfil-date__text--black">Download our ISO checklist to learn how you can prepare your organization to be ISO audit ready</p>
+        <p class="perfil-date__text--black">
+          Download our ISO checklist to learn how you can prepare your
+          organization to be ISO audit ready
+        </p>
         <img src="/img/post-vanta.jpg" alt="" class="post__img" />
         <div class="container">
           <div class="wrapper__download">
             <a href="" class="download__link">
-             <i class="fa-solid fa-download"></i><span>Descarga</span> 
+              <i class="fa-solid fa-download"></i><span>Descarga</span>
             </a>
           </div>
           <div class="wrapper__comments">
@@ -266,8 +282,6 @@
               </a>
             </div>
           </div>
-
-          
         </div>
       </section>
 
@@ -289,17 +303,22 @@
                 <i class="fa-solid fa-ellipsis"></i>
               </div>
               <div>
-                <p class="perfil-date__text">
-                  CEO de EDteam
-                </p>
+                <p class="perfil-date__text">CEO de EDteam</p>
                 <span class="perfil-date__text">1 hora</span
                 ><i class="fa-solid fa-earth-americas"></i>
               </div>
             </div>
           </div>
         </div>
-        <p class="perfil-date__text--black">La procrastinacion te está matando. Se lleva tus sueños y entierra a la persona en la que quieres convertirte.</p>
-        <p class="perfil-date__text--black">La procrastinacion hace que cada diciembre te plantees las mismas metas del año anterior y que las v <span class="perfil-date__text">....</span></p>
+        <p class="perfil-date__text--black">
+          La procrastinacion te está matando. Se lleva tus sueños y entierra a
+          la persona en la que quieres convertirte.
+        </p>
+        <p class="perfil-date__text--black">
+          La procrastinacion hace que cada diciembre te plantees las mismas
+          metas del año anterior y que las v
+          <span class="perfil-date__text">....</span>
+        </p>
         <div class="container">
           <div class="wrapper__comments">
             <div>
@@ -338,8 +357,6 @@
               </a>
             </div>
           </div>
-
-          
         </div>
       </section>
 
@@ -354,13 +371,16 @@
             <div class="wrapper__emoji">
               <div class="emoji__perfil-date">
                 <div>
-                  <span class="perfil-date__name--post">Miguel Ángel Durán García</span>
-                  <span class="perfil-date__name--gray-light">recomienda esto</span>
+                  <span class="perfil-date__name--post"
+                    >Miguel Ángel Durán García</span
+                  >
+                  <span class="perfil-date__name--gray-light"
+                    >recomienda esto</span
+                  >
                 </div>
 
                 <i class="fa-solid fa-ellipsis"></i>
               </div>
-              
             </div>
           </div>
           <div class="post__section">
@@ -375,38 +395,38 @@
                   <span class="perfil-date__name">Iñigo Muñoz</span>
                   <span class="perfil-date__name--gray">3er y demás</span>
                 </div>
-
-                <i class="fa-solid fa-ellipsis"></i>
+                <div class="perfil-date__box">
+                  <a href="" class="perfil-date__link">
+                    <i class="fa-solid fa-plus"></i> <span>Seguir</span>
+                  </a>
+                </div>
               </div>
               <div>
                 <p class="perfil-date__text">
-                Junior Full-Stack Developer || React,...
+                  Junior Full-Stack Developer || React,...
                 </p>
-                <span class="perfil-date__text">Promocionado</span
-                >
-               
+                <span class="perfil-date__text">2 hora</span
+                ><i class="fa-solid fa-earth-americas"></i>
               </div>
             </div>
           </div>
         </div>
-        <p class="perfil-date__text--black">Download our ISO checklist to learn how you can prepare your organization to be ISO audit ready</p>
-        <img src="/img/post-vanta.jpg" alt="" class="post__img" />
+        <p class="perfil-date__text--black">Buenos dias:</p>
+        <p class="perfil-date__text--black">
+          Pues aqui seguimos. Seguimos adelante con la busqueda de empleo. No
+          paramos, continua <span class="perfil-date__text">....</span>
+        </p>
+        <img src="/img/post-iñigo.jpg" alt="" class="post__img" />
         <div class="container">
-          <div class="wrapper__download">
-            <a href="" class="download__link">
-             <i class="fa-solid fa-download"></i><span>Descarga</span> 
-            </a>
-          </div>
           <div class="wrapper__comments">
             <div>
               <i class="fa-solid fa-face-laugh-beam"></i>
               <i class="fa-solid fa-thumbs-up"></i>
               <i class="fa-solid fa-hand-holding-heart"></i>
-              <span class="comments__text">248</span>
+              <span class="comments__text">17</span>
             </div>
             <div>
-              <span class="comments__text">5 comentarios</span>
-              <span class="comments__text">11 veces compartido</span>
+              <span class="comments__text">1 comentario</span>
             </div>
           </div>
           <div class="wrapper__action">
@@ -435,11 +455,106 @@
               </a>
             </div>
           </div>
-
-          
         </div>
       </section>
 
+      <section class="wrapper__post">
+        <div class="container">
+          <div class="post__section--border">
+            <img
+              src="/img/Perfil-Milton.jpeg"
+              alt="picture-user"
+              class="post__user--post"
+            />
+            <div class="wrapper__emoji">
+              <div class="emoji__perfil-date">
+                <div>
+                  <span class="perfil-date__name--post"
+                    >Milton Suarez Salazar</span
+                  >
+                  <span class="perfil-date__name--gray-light"
+                    >celebra esto</span
+                  >
+                </div>
+
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+          </div>
+          <div class="post__section">
+            <img
+              src="/img/perfil-diana.jpg"
+              alt="picture-user"
+              class="post__user"
+            />
+            <div class="wrapper__emoji">
+              <div class="emoji__perfil-date">
+                <div>
+                  <span class="perfil-date__name">Diana Orozco</span>
+                  <span class="perfil-date__name--gray">3er y demás</span>
+                </div>
+                <div class="perfil-date__box">
+                  <a href="" class="perfil-date__link">
+                    <i class="fa-solid fa-plus"></i> <span>Seguir</span>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <p class="perfil-date__text">Creator Manager @ LinkedIn</p>
+                <span class="perfil-date__text">2 hora</span
+                ><i class="fa-solid fa-earth-americas"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="perfil-date__text--black">
+          Aquí un ejemplo de una estructura básica de un post en LinkedIn,
+          <br />
+          hay más variacioes pero esta te sirva
+          <span class="perfil-date__text">....</span>
+        </p>
+        <img src="/img/post-diana.jpg" alt="" class="post__img" />
+        <div class="container">
+          <div class="wrapper__comments">
+            <div>
+              <i class="fa-solid fa-thumbs-up"></i>
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-hand-holding-heart"></i>
+              <span class="comments__text">17</span>
+            </div>
+            <div>
+              <span class="comments__text">1 comentario</span>
+              <span class="comments__text">1 vez compartido</span>
+            </div>
+          </div>
+          <div class="wrapper__action">
+            <div class="action__img">
+              <img src="/img/perfil-user.jpg" alt="" class="user__action" />
+              <span class="user__action--decoration">▼</span>
+            </div>
+            <div>
+              <a href="#" class="icon__action">
+                <i class="fa-regular fa-thumbs-up"></i>
+              </a>
+            </div>
+            <div>
+              <a href="" class="icon__action">
+                <i class="fa-regular fa-comment-dots"></i>
+              </a>
+            </div>
+            <div>
+              <a href="" class="icon__action">
+                <i class="fa-solid fa-retweet"></i>
+              </a>
+            </div>
+            <div>
+              <a href="" class="icon__action">
+                <i class="fa-regular fa-paper-plane"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

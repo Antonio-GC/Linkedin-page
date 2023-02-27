@@ -37,6 +37,14 @@ input {
   input::placeholder {
     color: #E2F0FE; }
 
+.wrapper__header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2; }
+
 .container {
   padding: 0 1.6rem;
   margin: 0 auto;
@@ -82,12 +90,19 @@ input {
   background-position: center;
   background-size: cover;
   display: block;
-  min-height: 10rem;
-  margin: -1.2rem -1.2rem 0; }
+  min-height: 10rem; }
+
+.wrapper__tablet {
+  display: none; }
+
+.wrapper {
+  padding-top: 7.5rem; }
 
 .perfil__box {
   padding: 0;
   background-color: #ffff; }
+  .perfil__box-section {
+    display: none; }
 
 .perfil__image {
   border-radius: 50%;
@@ -306,3 +321,79 @@ input {
 
 .perfil-date__link {
   color: #0A66C2; }
+
+@media (min-width: 750px) {
+  .icon__nav--display {
+    display: inline; }
+  .perfil__box {
+    padding: 0 1rem;
+    border-bottom: #CCCCCC solid 0.1rem; }
+    .perfil__box-section {
+      display: block; }
+  .wrapper__tablet {
+    display: block; }
+  .wrapper__section--tablet {
+    background-color: #ffff;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 2rem 1rem;
+    font-size: 1.2rem; }
+    .wrapper__section--tablet-border {
+      padding: 1rem 1rem;
+      background-color: #ffff;
+      border-bottom: #CCCCCC solid 0.1rem; }
+  .perfil__nav-bar {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; }
+  .wrapper__perfil {
+    margin: 1rem 1rem; }
+  .wrapper__post {
+    margin: 1rem auto;
+    max-width: 1200px;
+    width: 90%;
+    border-radius: .5rem; }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 30% 70%; }
+  .wrapper__section {
+    display: none; }
+  .wrapper__text--flex {
+    display: flex;
+    justify-content: space-between; }
+  .section__text-tablet {
+    color: #5E5E5E;
+    font-size: 1.2rem;
+    font-weight: bold; }
+  .section__text-blue {
+    color: #0A66C2;
+    font-weight: bold;
+    font-size: 1.2rem; }
+  .section__text-black {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem; }
+  .perfil__box-section {
+    background-color: #ffff;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 2rem 1rem;
+    font-size: 1.2rem; }
+  .margin {
+    margin: 1rem 0; }
+  .fa-users {
+    margin-right: .5rem; }
+  .fa-hashtag {
+    margin-right: .5rem; } }
+
+@media (min-width: 1020px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 20% 60% 20%; }
+  .wrapper__perfil {
+    margin-right: auto; }
+  .section__text-desktop {
+    font-size: 1.4rem;
+    font-weight: bold; }
+  .fa-circle {
+    font-size: .8rem; } }
